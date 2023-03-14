@@ -25,7 +25,7 @@
   gap: 1rem;
 }
 
-.cards__one-card {
+.cards-item {
   display: block;
   box-sizing: border-box;
   background-color: yellowgreen;
@@ -37,13 +37,13 @@
 }
 
 @media (max-width: 900px) {
-  .cards__one-card {
+  .cards-item {
     width: calc((100% - 1rem) / 2);
   }
 }
 
 @media (max-width: 600px) {
-  .cards__one-card {
+  .cards-item {
     width: 100%;
   }
 }
